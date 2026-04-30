@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3D4_02_RevitRoomEncapsulat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3D4_03_InternalBimHelper", "W3D4_03_InternalBimHelper\W3D4_03_InternalBimHelper.csproj", "{9AEA7D6E-B054-4384-9ECB-10664824AFE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3D4_04_BimRoomTracker", "W3D4_04_BimRoomTracker\W3D4_04_BimRoomTracker.csproj", "{A505F796-DDC6-4374-973E-2994E3B56118}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9AEA7D6E-B054-4384-9ECB-10664824AFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AEA7D6E-B054-4384-9ECB-10664824AFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AEA7D6E-B054-4384-9ECB-10664824AFE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A505F796-DDC6-4374-973E-2994E3B56118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A505F796-DDC6-4374-973E-2994E3B56118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A505F796-DDC6-4374-973E-2994E3B56118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A505F796-DDC6-4374-973E-2994E3B56118}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

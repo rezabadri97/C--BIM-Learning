@@ -1,20 +1,21 @@
 ﻿using System;
+
 internal class BimParameterFormatter
 {
-    public string RawName(string name)
+    public string FormatName(string name)
     {
-        return name.ToUpper().Trim();
+        return name.Trim().ToUpper();
     }
 }
+
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        BimParameterFormatter element1= new BimParameterFormatter();
+        BimParameterFormatter formatter = new BimParameterFormatter();
 
-        
-        Console.WriteLine(element1.RawName(" door width "));
-        
-        
+        string result = formatter.FormatName("  door width  ");
+
+        Console.WriteLine(result);
     }
 }
