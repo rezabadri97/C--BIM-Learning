@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3D4_01_PublicPrivateBasics", "W3D4_01_PublicPrivateBasics\W3D4_01_PublicPrivateBasics.csproj", "{6137734B-B219-431B-A7C0-BA7038D2633F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6137734B-B219-431B-A7C0-BA7038D2633F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6137734B-B219-431B-A7C0-BA7038D2633F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6137734B-B219-431B-A7C0-BA7038D2633F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6137734B-B219-431B-A7C0-BA7038D2633F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54DB6C5A-8444-4451-A6BB-95B192C29885}
+	EndGlobalSection
+EndGlobal
