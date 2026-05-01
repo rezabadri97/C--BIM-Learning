@@ -1,8 +1,11 @@
 ﻿using System;
+
 class BimElement
 {
-    public string Category;
+    public string Category { get; set; }
+
     private double height;
+
     public double Height
     {
         get
@@ -21,28 +24,30 @@ class BimElement
             }
         }
     }
+
     public BimElement()
     {
-        Category = "Generic Moder";
+        Category = "Generic Model";
         Height = 1;
     }
-    public BimElement(string c,double H)
+
+    public BimElement(string category, double initialHeight)
     {
-        Category = c;
-        Height = H;
+        Category = category;
+        Height = initialHeight;
     }
-    
 }
+
 class Program
 {
     static void Main(string[] args)
     {
-        BimElement Element1=new BimElement();
-        Console.WriteLine(Element1.Category);
-        Console.WriteLine(Element1.Height);
+        BimElement element1 = new BimElement();
+        BimElement element2 = new BimElement("Wall", 3.5);
+        BimElement element3 = new BimElement("Door", -2);
 
-        BimElement Element2 = new BimElement("Wall", 3);
-        Console.WriteLine(Element2.Category);
-        Console.WriteLine(Element2.Height);
+        Console.WriteLine("Element 1: " + element1.Category + ", " + element1.Height);
+        Console.WriteLine("Element 2: " + element2.Category + ", " + element2.Height);
+        Console.WriteLine("Element 3: " + element3.Category + ", " + element3.Height);
     }
 }
