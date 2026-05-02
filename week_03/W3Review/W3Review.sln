@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3Review_04_ElementNameClea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3Review_05_BimRoomClassDesign", "W3Review_05_BimRoomClassDesign\W3Review_05_BimRoomClassDesign.csproj", "{4630D7BA-81E3-408D-8E37-758A969C8096}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3Mini_01_BimRoomManagement", "W3Mini_01_BimRoomManagement\W3Mini_01_BimRoomManagement.csproj", "{1672230B-E5DA-40A6-BAEB-314D3741DB33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4630D7BA-81E3-408D-8E37-758A969C8096}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4630D7BA-81E3-408D-8E37-758A969C8096}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4630D7BA-81E3-408D-8E37-758A969C8096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1672230B-E5DA-40A6-BAEB-314D3741DB33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1672230B-E5DA-40A6-BAEB-314D3741DB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1672230B-E5DA-40A6-BAEB-314D3741DB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1672230B-E5DA-40A6-BAEB-314D3741DB33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
