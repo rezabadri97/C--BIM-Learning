@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36109.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4D1_02_WallLengthManager", "W4D1_01_RoomNameListPractice\W4D1_02_WallLengthManager.csproj", "{6FB6F651-FD42-42C3-B92F-5C5536C51EF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4D1_01_WallLengthManager", "W4D1_01_RoomNameListPractice\W4D1_01_WallLengthManager.csproj", "{6FB6F651-FD42-42C3-B92F-5C5536C51EF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4D1_02_RoomNameListPractice", "W4D1_02_RoomNameListPractice\W4D1_02_RoomNameListPractice.csproj", "{56123843-2C7B-40E4-8F50-2F77DF8DE3CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6FB6F651-FD42-42C3-B92F-5C5536C51EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FB6F651-FD42-42C3-B92F-5C5536C51EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FB6F651-FD42-42C3-B92F-5C5536C51EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56123843-2C7B-40E4-8F50-2F77DF8DE3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56123843-2C7B-40E4-8F50-2F77DF8DE3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56123843-2C7B-40E4-8F50-2F77DF8DE3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56123843-2C7B-40E4-8F50-2F77DF8DE3CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
