@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4D1_02_WallLengthManager", "W4D1_01_RoomNameListPractice\W4D1_02_WallLengthManager.csproj", "{6FB6F651-FD42-42C3-B92F-5C5536C51EF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FB6F651-FD42-42C3-B92F-5C5536C51EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FB6F651-FD42-42C3-B92F-5C5536C51EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FB6F651-FD42-42C3-B92F-5C5536C51EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FB6F651-FD42-42C3-B92F-5C5536C51EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C51C3695-1205-4CF3-973E-C4ECE16D6F02}
+	EndGlobalSection
+EndGlobal
