@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4D2_02_BimElementInheritan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4D2_03_AbstractElementOverridePractice", "W4D2_03_AbstractElementOverridePractice\W4D2_03_AbstractElementOverridePractice.csproj", "{C1F22CF4-5E41-4F27-A5F8-1D27E5C4A1C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W4D2_04_InterfaceIntroPractice", "W4D2_04_InterfaceIntroPractice\W4D2_04_InterfaceIntroPractice.csproj", "{0F5C80F8-08D3-4F4E-8551-ECBEC5DEAC92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C1F22CF4-5E41-4F27-A5F8-1D27E5C4A1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1F22CF4-5E41-4F27-A5F8-1D27E5C4A1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1F22CF4-5E41-4F27-A5F8-1D27E5C4A1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5C80F8-08D3-4F4E-8551-ECBEC5DEAC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5C80F8-08D3-4F4E-8551-ECBEC5DEAC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5C80F8-08D3-4F4E-8551-ECBEC5DEAC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5C80F8-08D3-4F4E-8551-ECBEC5DEAC92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
