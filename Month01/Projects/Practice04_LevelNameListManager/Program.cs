@@ -1,35 +1,45 @@
 ﻿using System;
 using System.Collections.Generic;
-class Level
+
+class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         List<string> levels = new List<string>();
-        
-        levels.Add("Level 01");
-        levels.Add("Level 02");
-        levels.Add("Level 03");
-        levels.Add("Roof");
 
-        for (int i=1; i<6; ++i)
+        AddLevel(levels, "Level 1");
+        AddLevel(levels, "Level 2");
+        AddLevel(levels, "Roof");
+        AddLevel(levels, "Level 2");
+
+        RemoveLevel(levels, "Roof");
+
+        Console.WriteLine("Has Level 1? " + levels.Contains("Level 1"));
+        Console.WriteLine("Total Levels: " + levels.Count);
+
+        foreach (string level in levels)
         {
-            string newLevel = $"Level 0{i}";
-            if (!levels.Contains(newLevel))
-            {
-                levels.Add(newLevel);
-            }
+            Console.WriteLine(level);
         }
-
-        levels.Remove("Roof");
-        
-        
-        DisplayInfo(levels);
     }
-    static void DisplayInfo(List<string> levels)
+
+    static void AddLevel(List<string> levels, string levelName)
     {
-        for (int i = 0; i < levels.Count; ++i)
+        if (!levels.Contains(levelName))
         {
-            Console.WriteLine($"{i+1}- Level Name: {levels[i]}");
+            levels.Add(levelName);
+        }
+        else
+        {
+            Console.WriteLine("Duplicate level not added: " + levelName);
+        }
+    }
+
+    static void RemoveLevel(List<string> levels, string levelName)
+    {
+        if (levels.Contains(levelName))
+        {
+            levels.Remove(levelName);
         }
     }
 }
