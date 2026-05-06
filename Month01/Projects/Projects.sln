@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice01_RoomAreaEvaluator", "Practice01_RoomAreaEvaluator\Practice01_RoomAreaEvaluator.csproj", "{7224CB2D-C3E0-4557-8D16-CC9BFED017A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice02_WallLengthArrayAnalyzer", "Practice02_WallLengthArrayAnalyzer\Practice02_WallLengthArrayAnalyzer.csproj", "{BF8C5C48-C1B5-46A8-8E42-4A2223AE879A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7224CB2D-C3E0-4557-8D16-CC9BFED017A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7224CB2D-C3E0-4557-8D16-CC9BFED017A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7224CB2D-C3E0-4557-8D16-CC9BFED017A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7224CB2D-C3E0-4557-8D16-CC9BFED017A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF8C5C48-C1B5-46A8-8E42-4A2223AE879A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8C5C48-C1B5-46A8-8E42-4A2223AE879A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8C5C48-C1B5-46A8-8E42-4A2223AE879A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8C5C48-C1B5-46A8-8E42-4A2223AE879A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C56E251C-B445-4688-A11F-2D2F27308374}
+	EndGlobalSection
+EndGlobal
