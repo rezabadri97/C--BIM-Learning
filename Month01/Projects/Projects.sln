@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice01_RoomAreaEvaluato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice02_WallLengthArrayAnalyzer", "Practice02_WallLengthArrayAnalyzer\Practice02_WallLengthArrayAnalyzer.csproj", "{BF8C5C48-C1B5-46A8-8E42-4A2223AE879A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice03_RoomNameCleaner", "Practice03_RoomNameCleaner\Practice03_RoomNameCleaner.csproj", "{0B9D909D-03A6-4131-9162-EA6AD54AFD12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BF8C5C48-C1B5-46A8-8E42-4A2223AE879A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF8C5C48-C1B5-46A8-8E42-4A2223AE879A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF8C5C48-C1B5-46A8-8E42-4A2223AE879A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9D909D-03A6-4131-9162-EA6AD54AFD12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9D909D-03A6-4131-9162-EA6AD54AFD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9D909D-03A6-4131-9162-EA6AD54AFD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9D909D-03A6-4131-9162-EA6AD54AFD12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

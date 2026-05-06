@@ -1,46 +1,50 @@
 ﻿using System;
-namespace Practice02_WallLengthArrayAnalyzer
+
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        double[] wallLengths = new double[5];
+
+        for (int i = 0; i < wallLengths.Length; i++)
         {
-
-            double[] lengths = new double[5];
-            for (int i=0; i< lengths.Length;  i++)
-            {
-                Console.WriteLine("Enter wall length " + (i + 1) + ":");
-                lengths[i] = Convert.ToDouble(Console.ReadLine());
-            }
-            Sum(lengths);
-            
-
-
-
+            Console.WriteLine("Enter wall length " + (i + 1) + ":");
+            wallLengths[i] = Convert.ToDouble(Console.ReadLine());
         }
-        static void Sum(double[] lengths)
-        {
-            double sum = 0;
-            double longest = lengths[0];
-            foreach(double length in lengths)
-            {
-                sum+= length;
-                if (length>longest)
-                {
-                    longest = length;
-                }
-            }
-            double average = sum / lengths.Length;
 
-            Console.WriteLine($"Wall Sum Length: {sum}");
-            Console.WriteLine();
-            Console.WriteLine($"Longest Wall: {longest}");
-            Console.WriteLine();
-            Console.WriteLine($"Wall Average Length: {average}");
-            Console.WriteLine();
-        }
+        double total = GetTotalLength(wallLengths);
+        double max = GetMaxLength(wallLengths);
+        double average = total / wallLengths.Length;
+
+        Console.WriteLine("Total Length: " + total);
+        Console.WriteLine("Max Length: " + max);
+        Console.WriteLine("Average Length: " + average);
     }
 
+    static double GetTotalLength(double[] lengths)
+    {
+        double sum = 0;
 
+        foreach (double item in lengths)
+        {
+            sum += item;
+        }
 
+        return sum;
+    }
+
+    static double GetMaxLength(double[] lengths)
+    {
+        double max = lengths[0];
+
+        for (int i = 1; i < lengths.Length; i++)
+        {
+            if (lengths[i] > max)
+            {
+                max = lengths[i];
+            }
+        }
+
+        return max;
+    }
 }
