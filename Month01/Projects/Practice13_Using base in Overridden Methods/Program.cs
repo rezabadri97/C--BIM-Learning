@@ -1,56 +1,67 @@
 ﻿using System;
+
 abstract class BuildingElement
 {
-    public int Id { get; set;}
-    public string Name { get; set;}
-    
+    public int Id { get; set; }
+    public string Name { get; set; }
+
     public BuildingElement(int id, string name)
     {
         Id = id;
         Name = name;
     }
-    public abstract void CalculateVaule();
 
+    public abstract double CalculateValue();
 
+    public void ShowBasicInfo()
+    {
+        Console.WriteLine("Id: " + Id);
+        Console.WriteLine("Name: " + Name);
+    }
 }
-class WallElement:BuildingElement
+
+class WallElement : BuildingElement
 {
-    public double Length { get; set;}
-    public WallElement(int id, string name, double length):base(id, name)
+    public double Length { get; set; }
+
+    public WallElement(int id, string name, double length) : base(id, name)
     {
         Length = length;
     }
-    public override void CalculateVaule()
-    {
-        double wallValue = Length * 2;
-        Console.WriteLine($"Id: {Id} | Name: {Name} | Wall Value: {wallValue}");
-    }
 
+    public override double CalculateValue()
+    {
+        return Length * 2;
+    }
 }
-class DoorElement:BuildingElement
+
+class DoorElement : BuildingElement
 {
-        public double Width { get; set;}
+    public double Width { get; set; }
 
-    public DoorElement(int id, string name, double width):base(id,name)
+    public DoorElement(int id, string name, double width) : base(id, name)
     {
-        Width=width;
-    }
-    public override void CalculateVaule()
-    {
-        double doorValue = Width * 3;
-        Console.WriteLine($"Id: {Id} | Name: {Name} | Door Value: {doorValue}");
+        Width = width;
     }
 
+    public override double CalculateValue()
+    {
+        return Width * 3;
+    }
 }
+
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        WallElement wall = new WallElement(101, "Exterior", 3);
-        DoorElement door = new DoorElement(102, "Wooden Door", .9);
+        WallElement wall = new WallElement(1, "Core Wall", 12);
+        DoorElement door = new DoorElement(2, "Exit Door", 1.5);
 
-        wall.CalculateVaule();
-        door.CalculateVaule();
+        wall.ShowBasicInfo();
+        Console.WriteLine("Wall Value: " + wall.CalculateValue());
+        Console.WriteLine();
 
+        door.ShowBasicInfo();
+        Console.WriteLine("Door Value: " + door.CalculateValue());
     }
 }
