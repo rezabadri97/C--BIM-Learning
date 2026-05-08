@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice08_ Element Comment
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice09_Room Schedule Generator", "Practice09_Room Schedule Generator\Practice09_Room Schedule Generator.csproj", "{BF901FFC-8C5F-49E5-985C-565533DAFE71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice10_Level Room Dictionary Manager", "Practice10_Level Room Dictionary Manager\Practice10_Level Room Dictionary Manager.csproj", "{BCF9A290-3337-4469-B677-B6621E3CDA88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{BF901FFC-8C5F-49E5-985C-565533DAFE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF901FFC-8C5F-49E5-985C-565533DAFE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF901FFC-8C5F-49E5-985C-565533DAFE71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF9A290-3337-4469-B677-B6621E3CDA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF9A290-3337-4469-B677-B6621E3CDA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF9A290-3337-4469-B677-B6621E3CDA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF9A290-3337-4469-B677-B6621E3CDA88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
