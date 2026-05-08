@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice11_Element Inherita
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice12_Virtual and Override for Element Info", "Practice12_Virtual and Override for Element Info\Practice12_Virtual and Override for Element Info.csproj", "{1389E14E-4DC5-4C1B-8C37-85BE3D9BBBA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice13_Abstract Class for Building Elements", "Practice13_Using base in Overridden Methods\Practice13_Abstract Class for Building Elements.csproj", "{75EA2737-514B-4591-A9B8-0D550BE36201}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{1389E14E-4DC5-4C1B-8C37-85BE3D9BBBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1389E14E-4DC5-4C1B-8C37-85BE3D9BBBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1389E14E-4DC5-4C1B-8C37-85BE3D9BBBA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75EA2737-514B-4591-A9B8-0D550BE36201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75EA2737-514B-4591-A9B8-0D550BE36201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75EA2737-514B-4591-A9B8-0D550BE36201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75EA2737-514B-4591-A9B8-0D550BE36201}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
