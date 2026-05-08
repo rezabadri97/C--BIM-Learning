@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice10_Level Room Dicti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice11_Element Inheritance Starter", "Practice11_Element Inheritance Starter\Practice11_Element Inheritance Starter.csproj", "{F38BEFDB-551D-4936-95B9-33F2D3AF0A25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice12_Virtual and Override for Element Info", "Practice12_Virtual and Override for Element Info\Practice12_Virtual and Override for Element Info.csproj", "{1389E14E-4DC5-4C1B-8C37-85BE3D9BBBA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{F38BEFDB-551D-4936-95B9-33F2D3AF0A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F38BEFDB-551D-4936-95B9-33F2D3AF0A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F38BEFDB-551D-4936-95B9-33F2D3AF0A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1389E14E-4DC5-4C1B-8C37-85BE3D9BBBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1389E14E-4DC5-4C1B-8C37-85BE3D9BBBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1389E14E-4DC5-4C1B-8C37-85BE3D9BBBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1389E14E-4DC5-4C1B-8C37-85BE3D9BBBA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
