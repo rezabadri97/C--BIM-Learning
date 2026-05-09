@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice12_Virtual and Over
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice13_Abstract Class for Building Elements", "Practice13_Using base in Overridden Methods\Practice13_Abstract Class for Building Elements.csproj", "{75EA2737-514B-4591-A9B8-0D550BE36201}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice14_Interface for Exportable BIM Data", "Practice14_Interface for Exportable BIM Data\Practice14_Interface for Exportable BIM Data.csproj", "{EABC64A9-3194-480F-BF5B-12806A2FA8D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice15_BIM Element Management System", "Practice15_BIM Element Management System\Practice15_BIM Element Management System.csproj", "{11491519-0789-454D-8384-332B5B31EC33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{75EA2737-514B-4591-A9B8-0D550BE36201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75EA2737-514B-4591-A9B8-0D550BE36201}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75EA2737-514B-4591-A9B8-0D550BE36201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EABC64A9-3194-480F-BF5B-12806A2FA8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EABC64A9-3194-480F-BF5B-12806A2FA8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EABC64A9-3194-480F-BF5B-12806A2FA8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EABC64A9-3194-480F-BF5B-12806A2FA8D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11491519-0789-454D-8384-332B5B31EC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11491519-0789-454D-8384-332B5B31EC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11491519-0789-454D-8384-332B5B31EC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11491519-0789-454D-8384-332B5B31EC33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
