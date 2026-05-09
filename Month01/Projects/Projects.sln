@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice14_Interface for Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice15_BIM Element Management System", "Practice15_BIM Element Management System\Practice15_BIM Element Management System.csproj", "{11491519-0789-454D-8384-332B5B31EC33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice16_Room Schedule and Department Analyzer", "Practice16_Room Schedule and Department Analyzer\Practice16_Room Schedule and Department Analyzer.csproj", "{881BC7FC-CFC0-4399-BAAC-B103119F2730}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{11491519-0789-454D-8384-332B5B31EC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11491519-0789-454D-8384-332B5B31EC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11491519-0789-454D-8384-332B5B31EC33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{881BC7FC-CFC0-4399-BAAC-B103119F2730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{881BC7FC-CFC0-4399-BAAC-B103119F2730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{881BC7FC-CFC0-4399-BAAC-B103119F2730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{881BC7FC-CFC0-4399-BAAC-B103119F2730}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
