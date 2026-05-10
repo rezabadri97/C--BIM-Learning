@@ -139,11 +139,9 @@ class Program
         Ilist.Add(new Door("Wooden", 2));
         Ilist.Add(new Wall("Exterior", 3));
 
-        foreach(IPrintable item in Ilist)
+        foreach (IPrintable item in Ilist)
         {
             item.Print();
-        }
-    
-        
+        }        
     }
 }
