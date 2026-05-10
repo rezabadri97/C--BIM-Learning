@@ -43,7 +43,7 @@ class RoomReport:IPrintable
     }
     public void Print()
     {
-        Console.WriteLine($"Room NAme: {name} | Room Area: {area}");
+        Console.WriteLine($"Room Name: {name} | Room Area: {area}");
     }
 }
 class Program
@@ -52,6 +52,5 @@ class Program
     {
         RoomReport room = new RoomReport("Office",30);
         room.Print();
-
     }
 }
