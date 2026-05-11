@@ -14,6 +14,5 @@ class Program
         print01.PrintItem<int>(5);
         print01.PrintItem("Wall");
         print01.PrintItem(true);
-
     }
 }

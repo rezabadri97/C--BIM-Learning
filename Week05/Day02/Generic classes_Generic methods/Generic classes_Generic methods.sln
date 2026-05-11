@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic classes Practice01"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic classes Practice02", "Generic classes Practice02\Generic classes Practice02.csproj", "{3BF4E5B5-4D50-4204-93E8-8677BA548365}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic classes Practice03", "Generic classes Practice03\Generic classes Practice03.csproj", "{23474316-D113-4CB9-8E7A-962C1FF995FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3BF4E5B5-4D50-4204-93E8-8677BA548365}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BF4E5B5-4D50-4204-93E8-8677BA548365}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BF4E5B5-4D50-4204-93E8-8677BA548365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23474316-D113-4CB9-8E7A-962C1FF995FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23474316-D113-4CB9-8E7A-962C1FF995FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23474316-D113-4CB9-8E7A-962C1FF995FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23474316-D113-4CB9-8E7A-962C1FF995FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
