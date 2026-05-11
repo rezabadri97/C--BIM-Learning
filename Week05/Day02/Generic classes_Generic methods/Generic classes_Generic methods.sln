@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36109.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic classes Practice01", "ConsoleApp1\Generic classes Practice01.csproj", "{30B106A8-D57C-4C8A-9CF6-EF1C9A35EFBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic classes Practice02", "Generic classes Practice02\Generic classes Practice02.csproj", "{3BF4E5B5-4D50-4204-93E8-8677BA548365}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{30B106A8-D57C-4C8A-9CF6-EF1C9A35EFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30B106A8-D57C-4C8A-9CF6-EF1C9A35EFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30B106A8-D57C-4C8A-9CF6-EF1C9A35EFBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BF4E5B5-4D50-4204-93E8-8677BA548365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF4E5B5-4D50-4204-93E8-8677BA548365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF4E5B5-4D50-4204-93E8-8677BA548365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF4E5B5-4D50-4204-93E8-8677BA548365}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -22,7 +22,5 @@ class Program
 
         Box<string> boxName = new Box<string>("Red");
         Console.WriteLine("Box Name: " + boxName.Value);
-
-
     }
 }
