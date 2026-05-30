@@ -1,7 +1,7 @@
 ﻿using System;
 List<int> numbers = new List<int>() { 2, 5, 7, 9, 1, 10 };
 var bigNumbers = numbers.Where(number => number > 5);
-foreach(var number in bigNumbers)
+foreach(var item in bigNumbers)
 {
-    Console.WriteLine(number);
+    Console.WriteLine(item);
 }
