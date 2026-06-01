@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort Rooms by Level and Nam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Take First Three Elements", "Take First Three Elements\Take First Three Elements.csproj", "{6150301D-9D02-4F4F-B206-CF97745FA25C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skip Two and Take Two", "Skip Two and Take Two\Skip Two and Take Two.csproj", "{8DD21BAF-67D1-4EA2-8FC1-28DE7FFC0CA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6150301D-9D02-4F4F-B206-CF97745FA25C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6150301D-9D02-4F4F-B206-CF97745FA25C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6150301D-9D02-4F4F-B206-CF97745FA25C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD21BAF-67D1-4EA2-8FC1-28DE7FFC0CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD21BAF-67D1-4EA2-8FC1-28DE7FFC0CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD21BAF-67D1-4EA2-8FC1-28DE7FFC0CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD21BAF-67D1-4EA2-8FC1-28DE7FFC0CA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

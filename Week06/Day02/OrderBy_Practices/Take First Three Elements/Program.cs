@@ -1,19 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+
 public class Program
 {
-    public static void Main(string[] args)
+    public static void Main()
     {
-        List<string> elements = new List<string> { "Wall A", "Door A", "Window A", "Column A", "Floor A" };
-        var newElements = elements.Take(3);
-
-        foreach(var element in newElements)
+        List<string> elementNames = new List<string>
         {
-            Console.WriteLine(element);
+            "Wall A",
+            "Door A",
+            "Window A",
+            "Column A",
+            "Floor A"
+        };
+
+        var firstThree = elementNames.Take(3);
+
+        Console.WriteLine("First Three Elements:");
+        foreach (var name in firstThree)
+        {
+            Console.WriteLine(name);
         }
-
-
     }
-
 }
