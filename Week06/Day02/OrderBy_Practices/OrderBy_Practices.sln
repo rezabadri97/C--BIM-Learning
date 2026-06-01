@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36109.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort Wall Heights", "Sort Wall Heights\Sort Wall Heights.csproj", "{A1BB9FE8-FD30-4EB5-8054-AD44A880E2F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort Rooms by Level and Name", "Sort Rooms by Level and Name\Sort Rooms by Level and Name.csproj", "{71AEFEC0-EF0A-422F-91DD-076654F06866}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A1BB9FE8-FD30-4EB5-8054-AD44A880E2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1BB9FE8-FD30-4EB5-8054-AD44A880E2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1BB9FE8-FD30-4EB5-8054-AD44A880E2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71AEFEC0-EF0A-422F-91DD-076654F06866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AEFEC0-EF0A-422F-91DD-076654F06866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AEFEC0-EF0A-422F-91DD-076654F06866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AEFEC0-EF0A-422F-91DD-076654F06866}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
