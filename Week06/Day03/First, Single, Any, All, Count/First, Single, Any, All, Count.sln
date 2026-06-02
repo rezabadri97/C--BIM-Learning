@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check If Any Invalid Room E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validate All Levels", "Validate All Levels\Validate All Levels.csproj", "{A1688B59-2ECA-4738-BA72-BF0E7F0AC803}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Valid Walls", "Count Valid Walls\Count Valid Walls.csproj", "{DAD56225-E240-4661-A555-C2AA93D09EE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A1688B59-2ECA-4738-BA72-BF0E7F0AC803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1688B59-2ECA-4738-BA72-BF0E7F0AC803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1688B59-2ECA-4738-BA72-BF0E7F0AC803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD56225-E240-4661-A555-C2AA93D09EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD56225-E240-4661-A555-C2AA93D09EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD56225-E240-4661-A555-C2AA93D09EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD56225-E240-4661-A555-C2AA93D09EE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
