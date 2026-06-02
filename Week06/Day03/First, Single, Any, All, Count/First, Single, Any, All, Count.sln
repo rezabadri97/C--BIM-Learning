@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find Single Element By Id",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check If Any Invalid Room Exists", "Check If Any Invalid Room Exists\Check If Any Invalid Room Exists.csproj", "{43D09047-9E9C-4C50-A0B8-F62B07E258FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validate All Levels", "Validate All Levels\Validate All Levels.csproj", "{A1688B59-2ECA-4738-BA72-BF0E7F0AC803}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{43D09047-9E9C-4C50-A0B8-F62B07E258FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43D09047-9E9C-4C50-A0B8-F62B07E258FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43D09047-9E9C-4C50-A0B8-F62B07E258FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1688B59-2ECA-4738-BA72-BF0E7F0AC803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1688B59-2ECA-4738-BA72-BF0E7F0AC803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1688B59-2ECA-4738-BA72-BF0E7F0AC803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1688B59-2ECA-4738-BA72-BF0E7F0AC803}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
