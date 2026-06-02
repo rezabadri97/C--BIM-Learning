@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36109.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find First Tall Wall", "Find First Tall Wall\Find First Tall Wall.csproj", "{A0BBD476-E9E7-4F38-9F28-71EF339C4878}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find Single Element By Id", "Find Single Element By Id\Find Single Element By Id.csproj", "{F4679DEA-B2FA-4229-B8EF-C1E3E8FB29DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A0BBD476-E9E7-4F38-9F28-71EF339C4878}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0BBD476-E9E7-4F38-9F28-71EF339C4878}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0BBD476-E9E7-4F38-9F28-71EF339C4878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4679DEA-B2FA-4229-B8EF-C1E3E8FB29DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4679DEA-B2FA-4229-B8EF-C1E3E8FB29DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4679DEA-B2FA-4229-B8EF-C1E3E8FB29DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4679DEA-B2FA-4229-B8EF-C1E3E8FB29DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

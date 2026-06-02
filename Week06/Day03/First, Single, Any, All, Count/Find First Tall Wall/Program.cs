@@ -2,29 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 
-class Wallinfo
+public class WallInfo
 {
-    public string Name {  get; set; }
-    public double Hieght { get; set; }
+    public string Name { get; set; }
+    public double Height { get; set; }
 }
-class Program
+
+public class Program
 {
-    public static void Main(string[] args)
+    public static void Main()
     {
-        List<Wallinfo> walls = new List<Wallinfo>
+        List<WallInfo> walls = new List<WallInfo>
         {
-            new Wallinfo{Name="Wall A",Hieght=2900},
-            new Wallinfo{Name="Wall B",Hieght=3000},
-            new Wallinfo{Name="Wall C",Hieght=3100},
-            new Wallinfo{Name="Wall D",Hieght=3200}
+            new WallInfo { Name = "Wall A", Height = 2500 },
+            new WallInfo { Name = "Wall B", Height = 3200 },
+            new WallInfo { Name = "Wall C", Height = 4000 }
         };
 
-        var firstWall = walls.First(w => w.Hieght > 3000);
+        WallInfo firstTallWall = walls.First(w => w.Height > 3000);
 
-       Console.WriteLine(firstWall.Name);
-
-
-
-
+        Console.WriteLine("First tall wall:");
+        Console.WriteLine(firstTallWall.Name);
     }
 }
