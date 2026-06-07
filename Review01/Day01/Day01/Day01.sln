@@ -5,6 +5,10 @@ VisualStudioVersion = 17.14.36109.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01_Exercise01_WallAreaCalculator", "Day01_Exercise01_WallAreaCalculator\Day01_Exercise01_WallAreaCalculator.csproj", "{C19047CC-DFA7-41BF-B40D-131FC9A04AF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01_Exercise02_RoomVolumeReport", "Day01_Exercise02_RoomVolumeReport\Day01_Exercise02_RoomVolumeReport.csproj", "{6982C4AA-4215-4CF7-992D-7F93D4B72DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01_Exercise03_RoomPaintingCostCalculator", "Day01_Exercise03_RoomPaintingCostCalculator\Day01_Exercise03_RoomPaintingCostCalculator.csproj", "{341696B1-3235-4585-A78A-A52A08B497E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C19047CC-DFA7-41BF-B40D-131FC9A04AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C19047CC-DFA7-41BF-B40D-131FC9A04AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C19047CC-DFA7-41BF-B40D-131FC9A04AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6982C4AA-4215-4CF7-992D-7F93D4B72DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6982C4AA-4215-4CF7-992D-7F93D4B72DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6982C4AA-4215-4CF7-992D-7F93D4B72DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6982C4AA-4215-4CF7-992D-7F93D4B72DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341696B1-3235-4585-A78A-A52A08B497E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341696B1-3235-4585-A78A-A52A08B497E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341696B1-3235-4585-A78A-A52A08B497E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341696B1-3235-4585-A78A-A52A08B497E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

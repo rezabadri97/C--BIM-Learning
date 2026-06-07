@@ -1,46 +1,43 @@
 ﻿using System;
-using System.Security.Cryptography.X509Certificates;
-public class Program
+
+namespace BimDeveloperExercises
 {
-    static void Main(string[] args)
+    internal class Program
     {
-        Console.WriteLine("Enter Wall Name");
-        string wallName=Console.ReadLine();
-        
-        Console.WriteLine("Enter Wall Length");
-        double wallLength =double.Parse(Console.ReadLine());
-        
-        Console.WriteLine("Enter Wall Height");
-        double wallHeight = double.Parse(Console.ReadLine());
-
-        double area = wallHeight * wallLength;
-
-
-        Console.WriteLine($"Wall Name: {wallName}");
-        Console.WriteLine($"Wall Length: {wallLength}");
-        Console.WriteLine($"Wall Height: {wallHeight}");
-        Console.WriteLine($"Wall Area: {area}");
-
-
-
-
-        if (area<10)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Small Wall");
+            Console.WriteLine("Enter wall name:");
+            string wallName = Console.ReadLine();
+
+            Console.WriteLine("Enter wall length in meters:");
+            double wallLength = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter wall height in meters:");
+            double wallHeight = double.Parse(Console.ReadLine());
+
+            double wallArea = wallLength * wallHeight;
+
+            string wallCategory;
+
+            if (wallArea < 10)
+            {
+                wallCategory = "Small Wall";
+            }
+            else if (wallArea >= 10 && wallArea <= 30)
+            {
+                wallCategory = "Medium Wall";
+            }
+            else
+            {
+                wallCategory = "Large Wall";
+            }
+
+            Console.WriteLine("-------------------------");
+            Console.WriteLine($"Wall Name: {wallName}");
+            Console.WriteLine($"Length: {wallLength} m");
+            Console.WriteLine($"Height: {wallHeight} m");
+            Console.WriteLine($"Area: {wallArea} m²");
+            Console.WriteLine($"Category: {wallCategory}");
         }
-        if(10<=area && area<30)
-        {
-            Console.WriteLine("Medium Wall");
-        }
-        if (area>30)
-        {
-            Console.WriteLine("Large Wall");
-        }
-
-
-
-
-
-
     }
 }
