@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01_Exercise02_RoomVolume
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01_Exercise03_RoomPaintingCostCalculator", "Day01_Exercise03_RoomPaintingCostCalculator\Day01_Exercise03_RoomPaintingCostCalculator.csproj", "{341696B1-3235-4585-A78A-A52A08B497E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01_Exercise04_RoomCodeAnalyzer", "Day01_Exercise04_RoomCodeAnalyzer\Day01_Exercise04_RoomCodeAnalyzer.csproj", "{97E582EB-ECC3-4816-9686-157B8E287A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01_Exercise05_DoorWidthStandardChecker", "Day01_Exercise05_DoorWidthStandardChecker\Day01_Exercise05_DoorWidthStandardChecker.csproj", "{8EAD559D-6766-48ED-8BA2-C48B34463897}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{341696B1-3235-4585-A78A-A52A08B497E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{341696B1-3235-4585-A78A-A52A08B497E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{341696B1-3235-4585-A78A-A52A08B497E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E582EB-ECC3-4816-9686-157B8E287A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E582EB-ECC3-4816-9686-157B8E287A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E582EB-ECC3-4816-9686-157B8E287A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E582EB-ECC3-4816-9686-157B8E287A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EAD559D-6766-48ED-8BA2-C48B34463897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EAD559D-6766-48ED-8BA2-C48B34463897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EAD559D-6766-48ED-8BA2-C48B34463897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EAD559D-6766-48ED-8BA2-C48B34463897}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
